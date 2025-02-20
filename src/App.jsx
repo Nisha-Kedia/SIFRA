@@ -5,7 +5,7 @@ import { CiMicrophoneOn } from "react-icons/ci"
 import { datacontext } from './context/UserContext'
 
 function App() {
- // let {recognition,speaking,setSpeaking}=useContext(datacontext)
+  let {recognition}=useContext(datacontext)
 
   return (
     <div className='main'>
@@ -13,7 +13,6 @@ function App() {
       <span>I'm Sifra , your advanced virtual assistant</span>
       
       <button onClick={()=>{
-        setSpeaking(true)
         recognition.start()
       }}>Click Here <CiMicrophoneOn/> </button>
       
