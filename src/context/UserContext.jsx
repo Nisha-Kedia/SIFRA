@@ -28,7 +28,7 @@ function UserContext({children}) {
     }
 
     let value={
-      recognition,
+      recognition
     }
   return (
     <div>
