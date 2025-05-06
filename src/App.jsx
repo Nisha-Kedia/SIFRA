@@ -7,11 +7,7 @@ import speak from './assets/speak.gif'
 import aigif from './assets/aiVoice.gif'
 
 function App() {
-<<<<<<< HEAD
   let {recognition,speaking,setSpeaking,prompt,setPrompt,response}=useContext(datacontext)
-=======
-  let {recognition}=useContext(datacontext)
->>>>>>> 65d5e87f598bc849fdd654b3b58000e16c0d1f70
 
   return (
     <div className='main'>
@@ -19,11 +15,8 @@ function App() {
       <span>I'm Sifra , your advanced virtual assistant</span>
       {!speaking?
       <button onClick={()=>{
-<<<<<<< HEAD
         setPrompt("Listening...")
         setSpeaking(true)
-=======
->>>>>>> 65d5e87f598bc849fdd654b3b58000e16c0d1f70
         recognition.start()
       }}>Click Here <CiMicrophoneOn/> </button>
       
