@@ -31,3 +31,22 @@ button{
   border: none;
   box-shadow: 2px 2px 50px rgb(59,205,227);
 }
+
+#speak{
+  width: 100px;
+}
+p{
+  font-size: 1.5vmax;
+  color: aliceblue;
+}
+.response{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#ai{
+  width: 50vh;
+  height: 80px;
+}
